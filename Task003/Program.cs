@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int number1 = 25;
+int number2 = 3;
+int number3 = number1 % number2;
+
+if (number3 == 0)
+    Console.Write("Делимое кратно делимому");
+else
+    Console.WriteLine(number3);
