@@ -4,7 +4,9 @@ Console.WriteLine("Введите цифру больше 99");
 int number = Convert.ToInt32(Console.ReadLine());
 
 if (number < 100)
+    {
     Console.WriteLine("Нужно больше циферок, милорд"); 
+    }
 else 
     {
     while (number > 99)
